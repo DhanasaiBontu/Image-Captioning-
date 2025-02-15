@@ -4,6 +4,7 @@
 This project implements a **neural image captioning model** using **visual attention**. The model takes an image as input and generates a descriptive caption by leveraging deep learning techniques.  
 ---
 
+
 ## ✨ Features  
 - Uses a **CNN** (such as ResNet) as an **image encoder**  
 - Implements an **LSTM-based decoder** with an **attention mechanism**  
@@ -11,6 +12,7 @@ This project implements a **neural image captioning model** using **visual atten
 - Generates captions dynamically based on **visual attention**  
 
 ---
+
 
 ## ⚙️ Prerequisites  
 
@@ -25,11 +27,13 @@ This project implements a **neural image captioning model** using **visual atten
 
 ---
 
+
 ## 📊 Dataset
 - The model is trained on an image-caption dataset (e.g., MS COCO, Flickr8k, or Flickr30k).
 - Ensure the dataset is preprocessed (tokenized, padded, and transformed into tensors).
 
 ---
+
 
 ## 🏗️ Model Architecture
 - Image Encoder : A CNN extracts visual features from the input image.
@@ -37,6 +41,7 @@ This project implements a **neural image captioning model** using **visual atten
 - LSTM Decoder : Predicts the next word based on previous words and attended image features.
 
 ---
+
 
 ## 🎯 Results
 - The model outputs a sequence of words describing the image.
